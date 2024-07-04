@@ -3,10 +3,9 @@ import win32com.client as wincom
 import time
 
 if __name__ == '__main__':
-    print("---------WELCOME TO ROBO-SPEAKER 1.0 created by RUDY---------\n ")
 
-    text = ("WELCOME TO ROBO-SPEAKER 1.0 created by RUDY "
-            "\nEnter text-to-speech info here ")
+text = ("WELCOME TO ROBO-SPEAKER 1.0 created by RUDY "
+    print(f"---------{text}---------\n ")
 
     while(True):
 
