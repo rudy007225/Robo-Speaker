@@ -1,5 +1,4 @@
 import win32com.client as wincom
-# you can insert gaps in the narration by adding sleep calls
 import time
 
 if __name__ == '__main__':
