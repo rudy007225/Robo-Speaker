@@ -1,1 +1,2 @@
 # Robo-Speaker
+Robo-Speaker 1.0 is a Python project created by Rudy using the win32com.client library. It allows users to convert text input into speech using the SAPI (Speech Application Programming Interface) technology on Windows systems. The program welcomes users with a personalized greeting and prompts them to enter text that the system then vocalizes using a synthesized voice. Users can interrupt the speech with breaks implemented via sleep calls. Additionally, the program includes a command to turn off the speaker, providing a seamless user experience.
