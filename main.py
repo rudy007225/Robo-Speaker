@@ -12,8 +12,8 @@ text = ("WELCOME TO ROBO-SPEAKER 1.0 created by RUDY "
         speak = wincom.Dispatch("SAPI.spVoice")
         speak.Speak(text)
 
-        text = input("Enter text-to-speech info here : ")
+        read = input("Enter text-to-speech info here : ")
         if text == 'turn off speaker':
             break
-        speak.Speak(text)
+        speak.Speak(read)
         time.sleep(3)
